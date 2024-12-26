@@ -65,6 +65,42 @@ body{
     background-color: white;
 }
 
+#SmallerMap{
+    display: none !important;
+}
+
+#SmallerSearch{
+    display: none !important;
+}
+
+#SearchButton{
+    background-color: transparent !important;
+    border: none !important;
+    transform: translateX(-3rem);
+}
+
+
+@media(max-width:768px) {
+    #BiggerMap{
+        display: none !important;
+    }
+
+    #BiggerSearch{
+        display: none !important;
+    }
+
+    #SmallerMap{
+        display: contents !important;
+    }
+    
+    #SmallerSearch{
+        display: flex !important;
+    }
+
+
+   
+}
+
 
 
 
