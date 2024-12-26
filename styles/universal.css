@@ -7,6 +7,15 @@ body{
     font-family: "Syne", sans-serif !important;
 }
 
+.navbar-brand{
+    transition: all .75s ease-in;
+}
+
+.navbar-brand:hover{
+    opacity: 60%;
+}
+
+
 .alerts{
     border: none !important;
     background-color: transparent !important;
