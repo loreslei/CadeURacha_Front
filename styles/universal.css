@@ -14,6 +14,11 @@ body{
 
 .alerts i{
     font-size: 2rem;
+    transition: all .75s ease-in;
+}
+
+.alerts i:hover{
+    opacity: 60%;
 }
 
 .profile{
