@@ -35,5 +35,22 @@ body{
 }
 
 
+#Nav_Item_Alerts{
+    padding: 1rem;
+    width: 100%;
+    height: 3rem;
+    border: .1px solid rgba(53, 53, 53, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .75 ease-in;
+    cursor: pointer;
+}
+
+#Nav_Item_Alerts:hover{
+    background-color: white;
+}
+
+
 
 
