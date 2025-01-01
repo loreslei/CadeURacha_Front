@@ -1,0 +1,9 @@
+.container{
+    margin-top: 8rem !important;
+}
+
+.row{
+    gap: 11rem;
+    scroll-behavior: smooth;
+}
+
