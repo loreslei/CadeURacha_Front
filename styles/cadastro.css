@@ -1,0 +1,42 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.box-area{
+    width: 90%;
+    margin-top: 8rem !important;
+}
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+
+#LoginBtn{
+    background: linear-gradient(90deg,#616e5d,#ccfaa7);
+    border-radius: 40px;
+    border: none;
+    color: #fdfdfd;
+}
+
+#Texto{
+    color: #FDFDFD;
+}
+
+#ImgBehind{
+    background-image: url('LoginImages/mulheres-de-tiro-completo-jogando-basquete_23-2150650175.avif');
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1/1;
+}
+
+
+
+
+@media (max-width:767.98px){
+    #ImgBehind{
+        border-radius: 1rem 1rem 0 0 !important;
+    }
+}
+
