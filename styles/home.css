@@ -1,14 +1,12 @@
-.container{
+
+.mt-8{
     margin-top: 8rem !important;
 }
+
 
 .row{
     gap: 11rem;
     scroll-behavior: smooth;
-}
-
-.w-85{
-    width: 85%;
 }
 
 @media (max-width: 767.97px){
