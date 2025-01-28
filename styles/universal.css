@@ -30,6 +30,7 @@ footer{
     background-color: var(--darker-lilac);
     height: 73px !important;
     color: var(--lilac);
+    z-index: 0 !important;
 }
 
 
@@ -59,7 +60,7 @@ footer{
 
 
 .offcanvas{
-    z-index: 500;
+    z-index: 500 !important;
 }
 
 
