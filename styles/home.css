@@ -3,6 +3,13 @@
     margin-top: 8rem !important;
 }
 
+.card img{
+    border-radius: 20px !important
+}
+.card{
+    border-radius: 20px !important
+}
+
 
 .row{
     gap: 11rem;
