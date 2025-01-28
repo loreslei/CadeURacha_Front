@@ -58,6 +58,11 @@ footer{
 }
 
 
+.offcanvas{
+    z-index: 500;
+}
+
+
 .off-1, .off-1 .close,.off-1 .nav-link, .off-1 .nav-link:visited{
     background-color: var(--darker-lilac);
     color: var(--cream);
