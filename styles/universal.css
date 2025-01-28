@@ -175,6 +175,33 @@ footer{
     background-color: var(--cream);
 }
 
+@media (max-width:559.98px){
+    .navbar{
+        height: 10rem !important;
+    }
+
+    #SearchBar{
+        display: block;
+        width: 7rem !important;
+    }
+
+    footer{
+        height: 7rem !important;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:390.98px){
+
+    footer p{
+        font-size: 9px;
+    }
+
+}
+
 
 
 
