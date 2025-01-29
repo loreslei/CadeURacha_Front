@@ -45,7 +45,7 @@ footer{
 }
 
 .map-link, .map-link:visited, .map-link:active{
-    color: var(--true-orange);
+    color: var(--true-orange) !important;
     transition: all .75s ease-in;
 }
 

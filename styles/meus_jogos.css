@@ -1,0 +1,57 @@
+:root {
+    --darker-lilac: #34327B;
+    --dark-purple: #1C1829;
+    --lilac: #9F84F9;
+    --true-orange: #EB7A42;
+    --cream: #FEFAEE;
+    --yellow: #E5C03E;
+    --input-color: rgba(#2C6DA5, 0.1)
+  }
+
+.mt-8{
+    margin-top: 8rem !important;
+}
+
+.card-img-overlay .texts{
+    transform: translateY(4rem);
+}
+
+.card-img-overlay i{
+    position: absolute;
+    font-size: 25px;
+    top: 6;
+    right: 0;
+    transform: translateX(-.6rem);
+}
+
+
+.card img{
+    border-radius: 20px !important;
+    object-fit: cover;
+    filter: blur(1px) brightness(0.7) saturate(0.8) contrast(0.5);
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: overlay;
+}
+
+
+.card{
+    border-radius: 20px !important;
+    width: 160px !important;
+    height: 160px !important;
+    background: linear-gradient(180deg, #9f84f9BB, #fdc4a89f);
+    cursor: pointer;
+}
+
+
+.row{
+    gap: 38px;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 767.97px){
+    .row{
+        gap: 5rem;
+    }
+}
+
