@@ -6,17 +6,39 @@
     --cream: #FEFAEE;
     --yellow: #E5C03E;
     --input-color: rgba(#2C6DA5, 0.1)
-  }
-
-.mt-8{
-    margin-top: 8rem !important;
 }
 
-.card-img-overlay .texts{
+h3{
+    margin-left: 15%;
+}
+
+
+#MarcarRacha,
+#MarcarRacha i,
+#MarcarRacha b {
+    width: 286px;
+    height: 52px;
+    background-color: var(--true-orange);
+    font-size: 22px;
+    color: var(--cream);
+}
+
+#MarcarRacha b {
+    margin-right: 1rem;
+}
+
+
+
+
+.mt-7 {
+    margin-top: 7rem !important;
+}
+
+.card-img-overlay .texts {
     transform: translateY(4rem);
 }
 
-.card-img-overlay i{
+.card-img-overlay i {
     position: absolute;
     font-size: 25px;
     top: 6;
@@ -25,7 +47,7 @@
 }
 
 
-.card img{
+.card img {
     border-radius: 20px !important;
     object-fit: cover;
     filter: blur(1px) brightness(0.7) saturate(0.8) contrast(0.5);
@@ -34,8 +56,13 @@
     mix-blend-mode: overlay;
 }
 
+.container {
+    padding: 3rem !important;
+    background-color: var(--cream);
+}
 
-.card{
+
+.card {
     border-radius: 20px !important;
     width: 160px !important;
     height: 160px !important;
@@ -43,15 +70,55 @@
     cursor: pointer;
 }
 
+.arrow{
+    font-size: 70px;
+    color: var(--true-orange);
+}
 
-.row{
+
+.row {
     gap: 38px;
     scroll-behavior: smooth;
 }
 
-@media (max-width: 767.97px){
-    .row{
-        gap: 5rem;
+
+@media (max-width:1200px){
+    h3{
+        margin: 0;
+        text-align: center;
     }
 }
 
+@media (max-width: 500px) {
+
+    .mt-7 {
+        margin-top: 11rem !important;
+    }
+    .row {
+        gap: 5rem;
+    }
+
+    .card h5 {
+        font-size: 13px !important;
+    }
+
+    .card p {
+        font-size: 10px !important;
+        transform: translateY(-.4rem);
+    }
+
+    .container {
+        width: 60% !important;
+    }
+
+    .card {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    #Agrupador{
+        width: 100% !important;
+    }
+
+
+}
