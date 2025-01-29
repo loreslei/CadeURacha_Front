@@ -95,6 +95,10 @@ h3{
         margin-top: 11rem !important;
     }
 
+    .margin{
+        margin-top: 8rem !important;
+    }
+
     .row {
         gap: 5rem;
     }
