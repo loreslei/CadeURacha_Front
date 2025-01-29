@@ -184,6 +184,7 @@ footer{
 @media (max-width:559.98px){
     .navbar{
         height: 10rem !important;
+        padding: 2rem;
     }
 
     #SearchBar{
