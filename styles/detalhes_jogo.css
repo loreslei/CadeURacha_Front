@@ -53,3 +53,21 @@ h4 strong i{
     padding: 6rem 0rem 6rem 0rem;
     border-radius: 20px;
 }
+
+.botoes button{
+    border-radius: 10px;
+    width: 15rem;
+    padding: .3rem;
+}
+
+#BtnExcluir{
+    border: 2px solid var(--true-orange);
+    background-color: var(--cream);
+    color: var(--true-orange);
+}
+
+#BtnEditar{
+    border: 2px solid var(--true-orange);
+    background-color: var(--true-orange);
+    color: var(--cream);
+}

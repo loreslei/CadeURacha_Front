@@ -203,6 +203,10 @@ footer {
         margin: 0;
         text-align: center;
     }
+
+    .margin {
+        margin-top: 8rem !important;
+    }
 }
 
 
