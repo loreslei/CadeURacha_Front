@@ -10,17 +10,17 @@
 
 
 
-h2 b span{
+h2 b span {
     color: var(--true-orange);
 }
 
 .container .row {
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .container .row::-webkit-scrollbar {
-    display: none; 
+    display: none;
 }
 
 .card-img-overlay .texts {
@@ -60,12 +60,12 @@ h2 b span{
 }
 
 
-.no-style{
+.no-style {
     background: transparent;
     border: 0;
 }
 
-.arrow{
+.arrow {
     font-size: 70px;
     color: var(--true-orange);
     cursor: pointer;
@@ -95,12 +95,12 @@ h2 b span{
 
 @media (max-width: 500px) {
 
-    h2{
+    h2 {
         font-size: 22px !important;
     }
 
     .row {
-        gap: 5rem;
+        gap: 10px;
     }
 
     .card h5 {
@@ -114,6 +114,7 @@ h2 b span{
 
     .container {
         width: 60% !important;
+        padding: 2rem !important;
     }
 
     .card {
@@ -121,7 +122,7 @@ h2 b span{
         height: 120px !important;
     }
 
-    #Agrupador{
+    #Agrupador {
         width: 100% !important;
     }
 

@@ -4,7 +4,9 @@
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration { display: none; }
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
 
 :root {
     --darker-lilac: #34327B;
@@ -14,10 +16,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     --cream: #FEFAEE;
     --yellow: #E5C03E;
     --input-color: rgba(#2C6DA5, 0.1)
-  }
-  
+}
 
-body{
+
+body {
     margin: 0;
     padding: 0;
     font-family: "Syne", sans-serif !important;
@@ -26,7 +28,7 @@ body{
     background-color: var(--cream);
 }
 
-footer{
+footer {
     background-color: var(--darker-lilac);
     height: 73px !important;
     color: var(--lilac);
@@ -35,49 +37,54 @@ footer{
 
 
 
-.gap{
+.gap {
     gap: .5rem;
 }
 
-.navbar{
+.navbar {
     background-color: var(--darker-lilac);
     height: 73px !important;
 }
 
-.map-link, .map-link:visited, .map-link:active{
+.map-link,
+.map-link:visited,
+.map-link:active {
     color: var(--true-orange) !important;
     transition: all .75s ease-in;
 }
 
-.map-link:hover{
+.map-link:hover {
     opacity: 60%;
 }
 
-.mb-8{
+.mb-8 {
     margin-bottom: 8rem !important;
-  
+
 }
 
 
-.offcanvas{
+.offcanvas {
     z-index: 500 !important;
 }
 
 
-.off-1, .off-1 .close,.off-1 .nav-link, .off-1 .nav-link:visited{
+.off-1,
+.off-1 .close,
+.off-1 .nav-link,
+.off-1 .nav-link:visited {
     background-color: var(--darker-lilac);
     color: var(--cream);
 }
 
-.off-1 .active{
+.off-1 .active {
     color: var(--true-orange) !important;
 }
 
-.alignment{
+.alignment {
     height: 73px !important;
 }
 
-.w-85{
+.w-85 {
     width: 85%;
 }
 
@@ -85,34 +92,34 @@ footer{
     margin-top: 7rem !important;
 }
 
-.ml-15{
+.ml-15 {
     margin-left: 15%;
 }
 
-.alerts{
+.alerts {
     margin-right: 2rem;
     border: none !important;
     background-color: transparent !important;
 }
 
-.alerts i{
+.alerts i {
     font-size: 38px;
     color: var(--true-orange);
     transform: translateY(.1rem);
     transition: all .75s ease-in;
 }
 
-.alerts i:hover{
+.alerts i:hover {
     opacity: 60%;
 }
 
-.profile{
+.profile {
     border: none !important;
     background-color: transparent !important;
 }
 
 
-.profile img{
+.profile img {
     width: 46.8px;
     height: 46.8px;
     border-radius: 50%;
@@ -120,37 +127,37 @@ footer{
 }
 
 
-.opacity-image img:hover{
+.opacity-image img:hover {
     opacity: 60%;
 }
 
 
-.collapse{
+.collapse {
     box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.25);
     border: none !important;
 }
 
 
-.close{
+.close {
     font-size: 70px;
     border: none;
     background-color: transparent;
     transition: 1s all ease;
 }
 
-.close:hover{
+.close:hover {
     opacity: 60%;
 }
 
 
-.navbar-middle{
+.navbar-middle {
     transform: translateX(-5rem) !important;
     transition: .1s all ease;
 }
 
 
 
-#Nav_Item_Alerts{
+#Nav_Item_Alerts {
     padding: 1.5rem;
     width: 100%;
     height: 3rem;
@@ -162,82 +169,73 @@ footer{
 }
 
 
-#SearchButton{
+#SearchButton {
     background-color: transparent !important;
     border: none !important;
     font-size: 24px;
     color: var(--true-orange);
-    transform:translate(-3.2rem, .2rem);
+    transform: translate(-3.2rem, .2rem);
 }
 
-#Logo{
+#Logo {
     cursor: default;
     color: var(--yellow);
 }
 
-#Logo span{
+#Logo span {
     color: var(--true-orange);
 }
 
-#MapIcon{
+#MapIcon {
     padding-left: .2rem;
     font-size: 30px;
 }
 
-#SearchBar, #SearchBar::placeholder{
+#SearchBar,
+#SearchBar::placeholder {
     color: var(--true-orange);
     background-color: var(--cream);
 }
 
 
-@media (max-width:1200px){
-    .ml-15{
+@media (max-width:1200px) {
+    .ml-15 {
         margin: 0;
         text-align: center;
     }
 }
 
 
-@media (max-width:559.98px){
-    .navbar{
+@media (max-width:559.98px) {
+    .navbar {
         height: 10rem !important;
         padding: 2rem;
     }
 
-    #SearchBar{
+    #SearchBar {
         display: block;
         width: 7rem !important;
     }
 
-    footer{
+    footer {
         height: 7rem !important;
     }
 
-    footer p{
+    footer p {
         font-size: 12px;
     }
 }
 
 @media (max-width: 500px) {
-    .margin{
-        margin-top: 8rem !important;
-    }
-
     .mt-7 {
         margin-top: 11rem !important;
     }
 }
 
-@media (max-width:390.98px){
+@media (max-width:390.98px) {
 
-    footer p{
+    footer p {
         font-size: 9px;
     }
 
 }
-
-
-
-
-
-

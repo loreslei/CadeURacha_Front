@@ -8,26 +8,26 @@
     --input-color: rgba(#2C6DA5, 0.1)
 }
 
-.translate{
+.translate {
     transform: translateX(-1rem);
 }
 
 
-h2 b span{
+h2 b span {
     color: var(--true-orange);
 }
 
-.ml-15{
+.ml-15 {
     margin-left: 15%;
 }
 
 .container .row {
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .container .row::-webkit-scrollbar {
-    display: none; 
+    display: none;
 }
 
 .mt-7 {
@@ -47,7 +47,7 @@ h2 b span{
     transform: translateX(-.6rem);
 }
 
-i span{
+i span {
     font-family: "Syne", sans-serif !important;
     transform: translateY(-.2rem) !important;
 }
@@ -79,12 +79,12 @@ i span{
 }
 
 
-.no-style{
+.no-style {
     background: transparent;
     border: 0;
 }
 
-.arrow{
+.arrow {
     font-size: 70px;
     color: var(--true-orange);
     cursor: pointer;
@@ -97,8 +97,9 @@ i span{
 }
 
 
-@media (max-width:1200px){
-    .ml-15{
+
+@media (max-width:1200px) {
+    .ml-15 {
         margin: 0;
         text-align: center;
     }
@@ -106,15 +107,16 @@ i span{
 
 @media (max-width: 500px) {
 
-    h2{
+    h2 {
         font-size: 22px !important;
     }
+
 
     .card-img-overlay i {
         font-size: 18px;
     }
 
-    i span{
+    i span {
         font-size: 16px;
         transform: translateY(-.05rem) !important;
     }
@@ -127,10 +129,10 @@ i span{
         margin-top: 11rem !important;
     }
 
-    .margin{
+    .margin {
         margin-top: 8rem !important;
     }
- 
+
 
     .row {
         gap: 10px;
@@ -148,6 +150,7 @@ i span{
 
     .container {
         width: 60% !important;
+        padding: 2rem !important;
     }
 
     .card {
@@ -157,11 +160,11 @@ i span{
         min-height: 120px;
     }
 
-    .card img{
+    .card img {
         filter: blur(0.5px) brightness(0.7) saturate(0.8) contrast(0.5);
     }
 
-    #Agrupador{
+    #Agrupador {
         width: 100% !important;
     }
 
