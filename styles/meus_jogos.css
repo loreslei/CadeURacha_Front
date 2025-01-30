@@ -12,23 +12,14 @@ h3{
     margin-left: 15%;
 }
 
-
-#MarcarRacha,
-#MarcarRacha i,
-#MarcarRacha b {
-    width: 286px;
-    height: 52px;
-    background-color: var(--true-orange);
-    font-size: 22px;
-    color: var(--cream);
+.container .row {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
 }
 
-#MarcarRacha b {
-    margin-right: 1rem;
+.container .row::-webkit-scrollbar {
+    display: none; 
 }
-
-
-
 
 .mt-7 {
     margin-top: 7rem !important;
@@ -70,15 +61,37 @@ h3{
     cursor: pointer;
 }
 
+
+.no-style{
+    background: transparent;
+    border: 0;
+}
+
 .arrow{
     font-size: 70px;
     color: var(--true-orange);
+    cursor: pointer;
 }
 
 
 .row {
     gap: 38px;
     scroll-behavior: smooth;
+}
+
+
+#MarcarRacha,
+#MarcarRacha i,
+#MarcarRacha b {
+    width: 286px;
+    height: 52px;
+    background-color: var(--true-orange);
+    font-size: 22px;
+    color: var(--cream);
+}
+
+#MarcarRacha b {
+    margin-right: 1rem;
 }
 
 
