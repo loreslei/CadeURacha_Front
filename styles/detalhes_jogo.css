@@ -17,6 +17,16 @@ body {
 
 }
 
+#BtnAvaliar{
+    color: var(--true-orange);
+    border: 2px solid var(--true-orange);
+    background-color: var(--cream);
+}
+
+.w-60{
+    width: 60% !important;
+}
+
 .img-fluid{
     border-radius: 20px;
     height: 70% !important;
