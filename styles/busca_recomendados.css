@@ -8,6 +8,10 @@
     --input-color: rgba(#2C6DA5, 0.1)
 }
 
+.translate{
+    transform: translateX(-1rem);
+}
+
 
 h2 b span{
     color: var(--true-orange);
@@ -31,8 +35,9 @@ h2 b span{
 }
 
 .card-img-overlay .texts {
-    transform: translateY(4rem);
+    transform: translateY(3.5rem);
 }
+
 
 .card-img-overlay i {
     position: absolute;
@@ -40,6 +45,11 @@ h2 b span{
     top: 6;
     right: 0;
     transform: translateX(-.6rem);
+}
+
+i span{
+    font-family: "Syne", sans-serif !important;
+    transform: translateY(-.2rem) !important;
 }
 
 
@@ -62,6 +72,8 @@ h2 b span{
     border-radius: 20px !important;
     width: 160px !important;
     height: 160px !important;
+    min-width: 160px;
+    min-height: 160px;
     background: linear-gradient(180deg, #9f84f9BB, #fdc4a89f);
     cursor: pointer;
 }
@@ -98,6 +110,19 @@ h2 b span{
         font-size: 22px !important;
     }
 
+    .card-img-overlay i {
+        font-size: 18px;
+    }
+
+    i span{
+        font-size: 16px;
+        transform: translateY(-.05rem) !important;
+    }
+
+    .card-img-overlay .texts {
+        transform: translateY(3rem);
+    }
+
     .mt-7 {
         margin-top: 11rem !important;
     }
@@ -105,10 +130,12 @@ h2 b span{
     .margin{
         margin-top: 8rem !important;
     }
+ 
 
     .row {
-        gap: 5rem;
+        gap: 10px;
     }
+
 
     .card h5 {
         font-size: 13px !important;
@@ -126,6 +153,12 @@ h2 b span{
     .card {
         width: 120px !important;
         height: 120px !important;
+        min-width: 120px;
+        min-height: 120px;
+    }
+
+    .card img{
+        filter: blur(0.5px) brightness(0.7) saturate(0.8) contrast(0.5);
     }
 
     #Agrupador{
