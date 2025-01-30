@@ -9,12 +9,9 @@
 }
 
 
+
 h2 b span{
     color: var(--true-orange);
-}
-
-.ml-15{
-    margin-left: 15%;
 }
 
 .container .row {
@@ -24,10 +21,6 @@ h2 b span{
 
 .container .row::-webkit-scrollbar {
     display: none; 
-}
-
-.mt-7 {
-    margin-top: 7rem !important;
 }
 
 .card-img-overlay .texts {
@@ -100,25 +93,10 @@ h2 b span{
 }
 
 
-@media (max-width:1200px){
-    .ml-15{
-        margin: 0;
-        text-align: center;
-    }
-}
-
 @media (max-width: 500px) {
 
     h2{
         font-size: 22px !important;
-    }
-
-    .mt-7 {
-        margin-top: 11rem !important;
-    }
-
-    .margin{
-        margin-top: 8rem !important;
     }
 
     .row {

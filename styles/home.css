@@ -1,0 +1,113 @@
+:root {
+    --darker-lilac: #34327B;
+    --dark-purple: #1C1829;
+    --lilac: #9F84F9;
+    --true-orange: #EB7A42;
+    --cream: #FEFAEE;
+    --yellow: #E5C03E;
+    --input-color: rgba(#2C6DA5, 0.1)
+}
+
+.mt-8{
+    margin-top: 0rem;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+   
+}
+
+.test {
+    gap: 7rem; 
+    padding: 2rem;
+}
+
+.fundo {
+    width: 409px;
+    height: 386px;
+    border-radius: 30px;
+}
+
+.fundo button{
+    border-radius: 15px;
+    height: 60px;
+    font-size: 30px;
+}
+
+.fundo .texts{
+    font-size: 40px;
+}
+
+.translate{
+    transform: translateY(2rem);
+}
+
+#TextoRacha,
+#ExplorarRacha
+{
+    color: var(--cream);
+    background-color: var(--true-orange);
+}
+
+#MarcarRacha, #TextoExplorar{
+    color: var(--true-orange);
+    background-color: var(--cream);
+}
+
+.fundo:first-child {
+    background-color: var(--true-orange);
+}
+
+
+@media (max-width:999.98px){
+    .fundo {
+        width: 309px;
+        height: 286px;
+        border-radius: 30px;
+    }
+
+    .translate{
+        transform: translateY(1rem);
+    }
+
+    .fundo button{
+        font-size: 22px;
+    }
+    
+    .fundo .texts{
+        font-size: 32px;
+    }
+    
+    
+}
+
+@media (max-width:799.98px){
+    .fundo {
+        width: 309px;
+        height: 286px;
+        border-radius: 30px;
+    }
+
+    .mt-8{
+        margin-top: 16rem;
+    }
+    
+}
+
+@media (max-width:500.98px){
+    .fundo {
+        width: 309px;
+        height: 286px;
+        border-radius: 30px;
+    }
+
+    .mt-8{
+        margin-top: 18rem;
+    }
+    
+}
+

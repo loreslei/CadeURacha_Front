@@ -81,6 +81,14 @@ footer{
     width: 85%;
 }
 
+.mt-7 {
+    margin-top: 7rem !important;
+}
+
+.ml-15{
+    margin-left: 15%;
+}
+
 .alerts{
     margin-right: 2rem;
     border: none !important;
@@ -181,6 +189,15 @@ footer{
     background-color: var(--cream);
 }
 
+
+@media (max-width:1200px){
+    .ml-15{
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
 @media (max-width:559.98px){
     .navbar{
         height: 10rem !important;
@@ -198,6 +215,16 @@ footer{
 
     footer p{
         font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .margin{
+        margin-top: 8rem !important;
+    }
+
+    .mt-7 {
+        margin-top: 11rem !important;
     }
 }
 
