@@ -35,6 +35,14 @@ footer {
     z-index: 0 !important;
 }
 
+.nav-link{
+    transition: all .5s ease;
+}
+
+.nav-link:hover{
+    color: var(--true-orange) !important;
+}
+
 
 
 .gap {

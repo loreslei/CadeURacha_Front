@@ -92,8 +92,14 @@ i span {
 
 
 .row {
-    gap: 38px;
+    gap: 38px !important;
     scroll-behavior: smooth;
+}
+
+.row a{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: fit-content;
 }
 
 

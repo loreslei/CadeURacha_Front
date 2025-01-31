@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       arrow.addEventListener("click", function () {
           let agrupador = this.closest("#Agrupador"); // Encontra o agrupador correto
           let container = agrupador.querySelector(".container .row"); // Seleciona a div correta
-          let scrollAmount = 300; // Distância do scroll
+          let scrollAmount = 100; // Distância do scroll
 
           if (this.classList.contains("bx-chevron-left")) {
               container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
