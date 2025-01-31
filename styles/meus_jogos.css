@@ -96,6 +96,13 @@ h2 b span {
     margin-right: 1rem;
 }
 
+@media(max-width:1600.98px){
+    #footer {
+        width: 100%;
+        padding: 4rem;
+    }
+}
+
 
 @media (max-width: 500px) {
 
