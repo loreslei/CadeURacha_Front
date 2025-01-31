@@ -1,42 +1,70 @@
 
-body{
-    overflow-x: hidden;
+.container {
+    margin-top: 40px;
 }
-
-.box-area{
-    width: 90%;
+.box-area {
+    height:73vh;
+    width: 60vh;
+    max-width: 900px;
+    border-radius: 4rem;
     margin-top: 8rem !important;
 }
 
-.right-box{
+.right-box {
     padding: 40px 30px 40px 40px;
 }
 
-
-#LoginBtn{
-    background: linear-gradient(90deg,#616e5d,#ccfaa7);
-    border-radius: 40px;
-    border: none;
-    color: #fdfdfd;
-}
-
-#Texto{
-    color: #FDFDFD;
-}
-
-#ImgBehind{
-    background-image: url('images/basquete.avif');
+#ImgBehind {
+    background-image: linear-gradient(0deg, rgba(28, 24, 41, 0.25), rgba(28, 24, 41, 0.25)), 
+                      linear-gradient(180deg, rgba(159, 132, 249, 0.5) 0%, rgba(235, 122, 66, 0.5) 100%),
+                      url('images/quadra1.jpeg');
     background-size: cover;
     background-position: center;
-    aspect-ratio: 1/1;
+    border-radius: 40px 0px 0px 40px;
 }
 
 
+.h2-texto {
+    margin-top: 20vh;  
+    margin-bottom: 16vh;
+    margin-left: 2.5rem;
+    font-size: 3vw;    
+}
 
+.p-texto {
+    font-size: 2vw;    
+    margin-top: 5vh;    
+}
 
-@media (max-width:767.98px){
-    #ImgBehind{
-        border-radius: 1rem 1rem 0 0 !important;
+@media (max-width: 768px) {
+    .box-area {
+        width: 90vw;   
+        height: auto;  
+    }
+
+    #ImgBehind {
+        width: 90vw;   
+        height: auto;  
+    }
+
+    .h2-texto {
+        font-size: 4vw;   
+        margin-top: 10vh;  
+    }
+
+    .p-texto {
+        font-size: 8vw;   
+        margin-top: 4vh;  
     }
 }
 
+#LoginBtn {
+    background-color: #EB7A42;
+    border-radius: 40px;
+    border: none;
+    color: #FFFFFF;
+}
+
+#Texto {
+    color: #FFFFFF;
+}
