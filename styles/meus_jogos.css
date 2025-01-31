@@ -8,15 +8,6 @@
     --input-color: rgba(#2C6DA5, 0.1)
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
 h2 b span {
     color: var(--true-orange);
 }
