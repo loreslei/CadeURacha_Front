@@ -124,6 +124,8 @@ footer {
 .profile {
     border: none !important;
     background-color: transparent !important;
+    object-fit: cover;
+    
 }
 
 
