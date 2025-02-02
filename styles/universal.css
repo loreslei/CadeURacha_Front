@@ -121,11 +121,15 @@ footer {
     opacity: 60%;
 }
 
+.img-brand{
+    width: 46.8px;
+    height: 46.8px;
+}
+
 .profile {
     border: none !important;
     background-color: transparent !important;
     object-fit: cover;
-    
 }
 
 
